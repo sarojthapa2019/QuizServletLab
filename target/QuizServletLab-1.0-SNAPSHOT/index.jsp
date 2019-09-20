@@ -12,10 +12,9 @@
 </head>
 <body>
     <h1>The Number Quiz</h1> <br />
-    <p>Your current score is 0.</p> <br />
+    <p>Your total score is ${}</p> <br />
     <p>Guess the next number in the next Sequence</p>
 
-    <p>3, 1, 4, 1, 5</p>
     <form action="next" method="post">
     <p>Your answer:</p> <input type="text" name="answer">
     <br />
